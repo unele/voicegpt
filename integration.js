@@ -103,3 +103,4 @@ const run = async () => {
 		run();
 	});
 }
+console.log('%cCaricamento completato! Ora chiudi la console e goditelo', 'font-weight: bold; font-size: 3em; color: #28a118');
