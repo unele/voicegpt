@@ -40,7 +40,7 @@ const sendMessage = (message, callback) => new Promise(async resolve => {
 			resolve(responseGroup.outerText);
 			continue;
 		}
-		await say(newSentences.join(''), callback);
+		await say(newSentences.join(' '), callback);
 	}
 });
 
